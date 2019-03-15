@@ -1,0 +1,47 @@
+Created heap of size 10
+Current number of items in heap is: 0
+Heap is empty, can't access top!
+
+BEGINNING TESTS FOR PART 1A
+*** TESTING INSERT ***
+adding item1,  with number 58 to heap
+Top of heap is: text_item{"item1",58}
+adding item2,  with number 73 to heap
+Top of heap is: text_item{"item2",73}
+adding item3,  with number 91 to heap
+Top of heap is: text_item{"item3",91}
+adding item4,  with number 82 to heap
+Top of heap is: text_item{"item3",91}
+adding item5,  with number 85 to heap
+Top of heap is: text_item{"item3",91}
+
+BEGINNING TESTS FOR PART 1B
+*** TESTING DELETEMAX ***
+Item returned from heap delete: text_item{"item3",91}
+Top of heap is now: text_item{"item5",85}
+
+BEGINNING TESTS FOR PART 2
+Found: difficult in the input file 39 time(s).
+Found: pneumonoultramicroscopicsilicovolcanoconiosis in the input file 0 time(s).
+
+BEGINNING TESTS FOR PART 3
+*** Top 5 most frequent words: ***
+Most frequent text item: text_item{"the",40506}
+Next most frequent text item: text_item{"of",19652}
+Next most frequent text item: text_item{"and",14786}
+Next most frequent text item: text_item{"a",14315}
+Next most frequent text item: text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 6 letters ***
+Most frequent words with at least 6 letters: text_item{"marius",1347}
+Next most frequent words with at least 6 letters: text_item{"valjean",1098}
+Next most frequent words with at least 6 letters: text_item{"himself",1063}
+Next most frequent words with at least 6 letters: text_item{"cosette",1000}
+Next most frequent words with at least 6 letters: text_item{"little",971}
+
+*** Top 5 most frequent words that begin with c ***
+Most frequent words that begin with c letters: text_item{"cosette",1000}
+Next most frequent words that begin with c letters: text_item{"could",675}
+Next most frequent words that begin with c letters: text_item{"come",548}
+Next most frequent words that begin with c letters: text_item{"child",453}
+Next most frequent words that begin with c letters: text_item{"can",432}
